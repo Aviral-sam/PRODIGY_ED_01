@@ -1,0 +1,54 @@
+.nav {
+  text-align: center; /* Make the menu fixed on the top */
+  width: 100%; /* Make the menu span the entire width of the page */
+  background-color: #333; /* Set the background color of the menu */
+  overflow: hidden; /* Hide the overflow of the menu items */
+  position: relative;
+  
+}
+
+/* Define the style of the menu items */
+.nav a {
+  float: left; /* Align the menu items to the left */
+  display: block; /* Display the menu items as blocks */
+  color: white; /* Set the text color of the menu items */
+  text-align: center; /* Center the text of the menu items */
+  padding: 14px 16px; /* Set the padding of the menu items */
+  text-decoration: none; /* Remove the underline of the menu items */
+  
+
+}
+
+/* Define the style of the menu items when they are hovered over */
+.nav a:hover {
+  background-color: #111; /* Change the background color of the menu items */
+  color: yellow; /* Change the text color of the menu items */
+}
+
+/* Define the style of the menu items when they are active (clicked) */
+.nav a:active {
+  background-color: green; /* Change the background color of the menu items */
+  color: white; /* Change the text color of the menu items */
+}
+
+/* Define the style of the menu items when the page is scrolled */
+.nav-scrolled {
+  background-color: #555; /* Change the background color of the menu */
+  color: white; /* Change the text color of the menu items */
+}
+
+/* Define the style of the body element */
+body {
+  margin: 0; /* Remove the default margin of the body */
+  font-family: Arial, sans-serif; /* Set the font family of the body */
+  background-image: url("./bg.jpg");
+}
+
+/* Define the style of the content element */
+.content {
+  margin-top: 60px; /* Add some margin to the top of the content to avoid overlapping with the menu */
+  text-align: center; /* Center the text of the content */
+  color: purple;
+  position: center;
+  padding: 1%;
+}
